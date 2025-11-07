@@ -19,7 +19,7 @@ Generate simple Reports (e.g., overdue books)
 
 🧭 Instructions on How to Run the App
 1. Clone the Repository
-git clone https://github.com/your-username/library-lite.git
+git clone https://github.com/thotisravani/LibraryLite.git
 cd library-lite
 
 2. Install Dependencies
@@ -38,9 +38,10 @@ Inside backend/.env:
 
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=yourpassword
-DB_NAME=library_lite
-PORT=5000
+DB_PASS=root
+DB_NAME=library
+JWT_SECRET=3306
+
 
 5. Run the App
 # Run backend
